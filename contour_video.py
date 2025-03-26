@@ -19,7 +19,7 @@ while ret:
             cv2.rectangle(frame, (x,y), (x + width,  y + height), (0, 255, 0), 3)
 
     cv2.imshow('img', frame)
-    cv2.imshow('thresh', thresh)
+    # cv2.imshow('thresh', thresh)
     if cv2.waitKey(40) & 0xff == ord('q'):
         break
 
