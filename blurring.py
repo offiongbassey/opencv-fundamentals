@@ -2,7 +2,7 @@ import cv2
 
 img = cv2.imread('car.jpg')
 
-kernel = 27
+kernel = 11
 blur = cv2.blur(img, (kernel, kernel))
 
 gaussian_blur = cv2.GaussianBlur(img, (kernel, kernel), 3)
